@@ -1,0 +1,140 @@
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #home-page {
+        background-color: #002930;
+        width: 100vw;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    #topbar {
+        display: flex;
+        margin: 0px 45px 0px 20px;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    
+    hr {
+        margin-top: 0px;
+    }
+    
+    #topbar p {
+        color: white;
+        margin: 0px 0px;
+    }
+    
+    #order {
+        height: 40px;
+        border-radius: 20px;
+        background-color: #CEA800;
+        cursor: pointer;
+    }
+    
+    #discription-total {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #discription {
+        width: 50%;
+    }
+    
+    #burger {
+        margin-right: 0px;
+    }
+    
+    img {
+        width: 70vh;
+        gap: 0px;
+    }
+    
+    #slogan {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    
+    #disc {
+        margin-bottom: 40px;
+    }
+    
+    #two-box {
+        display: flex;
+        margin-top: 50px;
+        justify-content: flex-start;
+        gap: 60px;
+    }
+    
+    #box {
+        height: fit-content;
+        width: fit-content;
+        background-color: #01525f;
+        padding: 10px 15px 10px 20px;
+        border-radius: 20px;
+    }
+    
+    #bold {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #box.white {
+        background-color: white;
+    }
+    
+    .white p {
+        color: black;
+    }
+    
+    #about {
+        background-color: #003640;
+        width: 100vw;
+    }
+    
+    #header {
+        margin: 0px 0px 0px 0px;
+        padding: 30px 0px 50px 40px;
+        font-size: 50px;
+    }
+    
+    #menus {
+        background-color: #014450;
+        width: 100vw;
+    }
+    
+    #img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        margin-left: 80px;
+    }
+    
+    #img img {
+        width: 300px;
+        /* Keeps images visually consistent, cropping if necessary (optional) */
+        object-fit: cover;
+        display: block;
+    }
+    
+    #pages {
+        background-color: #01525f;
+        width: 100vw;
+    }
+    
+    #blogs {
+        background-color: #015f6f;
+        width: 100vw;
+    }
+    
+    #contact {
+        background-color: #017a8f;
+        width: 100vw;
+    }
